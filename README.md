@@ -1,7 +1,7 @@
 # ⚡ AZURE VM OPTIMIZER
 
 > [!IMPORTANT]
-> **Tactical Azure VM Deployment.** Bypass portal UI lag and CLI token bloat. Find the coldest prices, deploy with Service Principals, and ship faster.
+> **High-velocity Azure VM orchestration.** Bypasses CLI token bloat and portal latency to ship infrastructure on x86_64 metal. Real-time retail price scraping for maximum cost efficiency.
 
 Built for the **Intel MacBook Pro 15,1** (x86_64) metal, targeting **Azure Central India** and beyond. Secure by penetration testing; efficient by design.
 
