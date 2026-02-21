@@ -1,0 +1,74 @@
+# .gitignore for Azure VM Deployment Project
+
+# SSH Keys (NEVER COMMIT)
+keys/
+ollama_key
+ollama_key.pub
+*.key
+*.pem
+*.pub
+
+# Personal / session notes (not for public)
+VM_SESSION_MEMORY.md
+docs/gemini.md
+
+# Service Principal Secrets
+*.secret
+.env
+
+# Logs
+logs/
+*.log
+
+# Data (large files)
+data/vms.json
+
+# Node modules (if using OpenClaw)
+node_modules/
+package-lock.json
+
+# macOS
+.DS_Store
+._*
+
+# Azure CLI cache
+.azure/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Output files
+deployment_*.json
+vm_create_output.json
+benchmark_results.csv
